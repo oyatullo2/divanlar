@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.section1{
+    top: 30px;
+    padding: 0px 0px 0px 180px;
+    display: flex;
+    gap: 25px;
+    position: relative;
+    margin-bottom: 53px;
+}
+.section1-img1{
+    border-radius: 10px;
+}
+.section1-fieldset1{
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.section-text{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    margin-top: 10px;
+    font-weight: 650;
+}
+.section-texts{
+    display: flex;
+    gap: 10px;
+    margin-top: -25px;
+    color: grey;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section-text1{
+    text-decoration: line-through;
+}
+.section-stars{
+    margin-top: -40px;
+    margin-left: 140px;
+}
+.section2{
+    display: flex;
+    gap: 25px;   
+    padding: 0px 0px 0px 180px;
+}
+@media screen and (max-width:1345px) {
+    #fieldset3{
+        position: relative;
+        top: 375px;
+        right: 594px;
+    }
+    #fieldset4{
+        top: 375px;
+        position: relative;
+        right: 594px;
+    }
+    .section1{
+        width: 650px;
+        margin: 0px auto;
+    }
+    .section2{
+        position: relative;
+        top: 429px;
+        margin: 0px auto;
+        width: 650px;
+    }
+    #fieldset7{
+        position: relative;
+        top: 375px;
+        right: 594px;
+    }
+    #fieldset8{
+        top: 375px;
+        position: relative;
+        right: 594px;
+    }
+}
+@media screen and (max-width:755px) {
+    #fieldset2{
+        position: relative;
+        top: 1500px;
+        right: 294px;
+    }
+    #fieldset4{
+        position: relative;
+        top: 1875px;
+        right: 884px;
+    }
+    #fieldset6{
+        position: relative;
+        top: 1500px;
+        right: 288px;
+    }
+    #fieldset8{
+        position: relative;
+        top: 1875px;
+        right: 880px;
+    }
+    .section1{
+        display: flex;
+        width: 500px;
+        margin: 0px auto;
+        position: relative;
+    }
+    .section2{
+        display: flex;
+        width: 500px;
+        margin: 0px auto;
+        position: relative;
+    }
+}
