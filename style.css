@@ -112,3 +112,9 @@ body{
         position: relative;
     }
 }
+@media screen and (max-width:500px) {
+    .section-asosiy{
+        margin: 0px auto;
+        margin-left: -100px;
+    }
+}
